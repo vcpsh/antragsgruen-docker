@@ -4,11 +4,11 @@ node {
 
     def baseimage = 'jugendpresse/apache:php-7.2'
 
-    def image = 'jugendpresse/docker-antragsgruen'
+    def image = 'registry.k8s-test.vcp.sh/vcpsh/antragsgruen'
 
-    def gitrepository = 'https://github.com/CatoTH/antragsgruen.git'
+    def gitrepository = 'https://github.com/digiv-de/antragsgruen.git'
     def gitbranch     = 'master'
-    def begin_commit  = 'eaf83c00'
+    def begin_commit  = 'f1ea9ce'
 
     def built_tags = []
     def build_tags = []
